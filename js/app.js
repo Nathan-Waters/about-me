@@ -35,3 +35,23 @@ if(answerThree === 'yes' || answerThree ==='y'){
   console.log('incorrect question 3');
   alert('Wrong! Human Nathan did however live in Alaska for a short time growing up.');
 }
+
+let answerFour = prompt('Was Nathan a ranked figure skater? beep beep boop.').toLowerCase();
+
+if(answerFour === 'yes' || answerFour ==='y'){
+  console.log('incorrect question 4');
+  alert('Nagative. Nathan did however do speed skating!');
+} else if (answerFour === 'no' || answerFour ==='n'){
+  console.log('correct question 4');
+  alert('That is correct, but he would have been beautiful!');
+}
+
+let answerFive = prompt('Is Nathan from Washington? beep beep boop.').toLowerCase();
+
+if(answerFive === 'yes' || answerFive ==='y'){
+  console.log('correct question 5');
+  alert('Correct Human! Nathan Was born and raised in Washington');
+} else if (answerFive === 'no' || answerFive ==='n'){
+  console.log('incorrect question 5');
+  alert('Wrong! Human Nathan did however live in Alaska for a short time growing up.');
+}
