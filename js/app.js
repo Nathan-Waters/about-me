@@ -56,4 +56,21 @@ if(answerFive === 'yes' || answerFive ==='y'){
   alert('Wrong! Sports is a good excuse to hang with friends.');
 }
 
+//for loop on the 6th question to allow for 4 chances
+for(let i = 0; i <= 3; i++){
+
+  let userGuess = prompt('how many times did i move before graduating HS');
+
+  if (userGuess === 1){
+    alert('correct!');
+    break;
+  } else if(userGuess === 2){
+    alert('incorrect1');
+  } else if(userGuess === 3){
+    alert('incorrect2');
+  } else if(userGuess === 4){
+    alert('incorrect3');
+  }
+}
+
 alert('I would like to thank you human. I\'m sure you two will be the best of friends. Nathan and ' + userName + ' the dynamic duo!');
