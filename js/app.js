@@ -46,12 +46,14 @@ if(answerFour === 'yes' || answerFour ==='y'){
   alert('That is correct, but he would have been beautiful!');
 }
 
-let answerFive = prompt('Is Nathan from Washington? beep beep boop.').toLowerCase();
+let answerFive = prompt('Does Nathan Like sports? beep beep boop.').toLowerCase();
 
 if(answerFive === 'yes' || answerFive ==='y'){
   console.log('correct question 5');
-  alert('Correct Human! Nathan Was born and raised in Washington');
+  alert('Correct! Nathan enjoys some good sports ball fun, beeeeep.');
 } else if (answerFive === 'no' || answerFive ==='n'){
   console.log('incorrect question 5');
-  alert('Wrong! Human Nathan did however live in Alaska for a short time growing up.');
+  alert('Wrong! Sports is a good excuse to hang with friends.');
 }
+
+alert('I would like to thank you human. I\'m sure you two will be the best of friends. Nathan and ' + userName + 'the dynamic duo!');
