@@ -2,12 +2,19 @@ body {
   background-color: lightgray;
   text-align: center;
   border: 10px;
+  border-style: double;
 }
 
 h1 {
-  font-size: larger;
+  font-size: 140px;
+}
+
+h2 {
+  font-style: italic;
+  background-color: aqua;
 }
 
 p {
+  background-color: black;
   color: red;
 }
