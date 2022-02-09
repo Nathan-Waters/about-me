@@ -56,4 +56,4 @@ if(answerFive === 'yes' || answerFive ==='y'){
   alert('Wrong! Sports is a good excuse to hang with friends.');
 }
 
-alert('I would like to thank you human. I\'m sure you two will be the best of friends. Nathan and ' + userName + 'the dynamic duo!');
+alert('I would like to thank you human. I\'m sure you two will be the best of friends. Nathan and ' + userName + ' the dynamic duo!');
