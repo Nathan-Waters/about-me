@@ -1,6 +1,6 @@
 'use strict';
 
-// console.log('hey world hey!');
+// // console.log('hey world hey!');
 
 let userName = prompt('Hello, human. What is your name?');
 
@@ -56,20 +56,21 @@ if(answerFive === 'yes' || answerFive ==='y'){
   alert('Wrong! Sports is a good excuse to hang with friends.');
 }
 
-//for loop on the 6th question to allow for 4 chances
+// for loop on the 6th question math.random() taken from https://www.w3schools.com/JS/js_random.asp
+let randomNum = Math.floor((Math.random() * 50));
 for(let i = 0; i <= 3; i++){
 
-  let userGuess = prompt('how many times did i move before graduating HS');
-
-  if (userGuess === 1){
+  // let randomNum = Math.floor((Math.random() * 50));
+  let userGuess = prompt('pick a number between 0 and 50');
+  if (userGuess === randomNum){
     alert('correct!');
     break;
-  } else if(userGuess === 2){
-    alert('incorrect1');
-  } else if(userGuess === 3){
-    alert('incorrect2');
-  } else if(userGuess === 4){
-    alert('incorrect3');
+  } else if(userGuess > randomNum && i !== 3){
+    alert('incorrect, try something lower');
+  } else if(userGuess < randomNum && i !== 3){
+    alert('incorrect, try something higher');
+  } else if(i === 3){
+    alert('Sorry the correct answer was :' + randomNum);
   }
 }
 
