@@ -109,25 +109,29 @@ let arr = ['othello', 'puyallup', 'orting'];
 let count = 0;
 let guessesMade = 1;
 
-while(count < 6){
+function places(a,b,c){
+  //a=arr,b=count,c=guesses made
+while(b < 6){
   let g = prompt('What is a place that you like to frequent?').toLowerCase;
 
-  for (let i = 0; i < arr.length; i++){
-    if(arr[i] === g){
+  for (let i = 0; i < a.length; i++){
+    if(a[i] === g){
       alert('You got it! ' + g + ' is great hu?!');
       totalScore++;
-      count = 7;
+      b = 7;
     }
   }
-  if(count === 6 ){
-    alert('Sorry but the places I like are ' + arr);
-  } else if(count===7){
+  if(b === 6 ){
+    alert('Sorry but the places I like are ' + a);
+  } else if(b===7){
     alert('Great job!');
   } else {
-    alert('Thats ' + guessesMade + ' guess, you have ' + (6 - guessesMade) + ' left.');
-    guessesMade++;
-    count++;
+    alert('Thats ' + c + ' guess, you have ' + (6 - c) + ' left.');
+    c++;
+    b++;
   }
 }
+}
+places(arr, count, guessesMade);
 //close out message
 alert('I would like to thank you human. I\'m sure you two will be the best of friends. Nathan and ' + userName + ' the dynamic duo! Wow you got ' + totalScore + ' questions right about Nathan! little creepy if you ask me.');
