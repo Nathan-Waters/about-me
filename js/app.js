@@ -21,14 +21,17 @@ question1();
 
 let answerTwo = prompt('Does Nathan like golf? beep boop.').toLowerCase();
 
-if(answerTwo === 'yes' || answerTwo ==='y'){
+function question2(x){
+if(x === 'yes' || x ==='y'){
   // console.log('correct question 2');
   alert('He does! however his short game does not like him.');
   totalScore++;
-} else if (answerTwo === 'no' || answerTwo ==='n'){
+} else if (x === 'no' || x ==='n'){
   // console.log('incorrect question 2');
   alert('Wrong! Human Nathan enjoys a round of golf from time to');
 }
+}
+question2(answerTwo);
 
 let answerThree = prompt('Is Nathan from Washington? beep beep boop.').toLowerCase();
 
