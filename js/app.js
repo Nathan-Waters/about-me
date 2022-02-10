@@ -33,6 +33,8 @@ if(x === 'yes' || x ==='y'){
 }
 question2(answerTwo);
 
+function question3(){
+
 let answerThree = prompt('Is Nathan from Washington? beep beep boop.').toLowerCase();
 
 if(answerThree === 'yes' || answerThree ==='y'){
@@ -43,8 +45,10 @@ if(answerThree === 'yes' || answerThree ==='y'){
   // console.log('incorrect question 3');
   alert('Wrong! Human Nathan did however live in Alaska for a short time growing up.');
 }
+}
+question3();
 
-function question3(){
+function question4(){
 
 let answerFour = prompt('Was Nathan a ranked figure skater? beep beep boop.').toLowerCase();
 
@@ -57,7 +61,9 @@ if(answerFour === 'yes' || answerFour ==='y'){
   totalScore++;
 }
 }
-question3();
+question4();
+
+function question5(){
 
 let answerFive = prompt('Does Nathan Like sports? beep beep boop.').toLowerCase();
 
@@ -69,6 +75,8 @@ if(answerFive === 'yes' || answerFive ==='y'){
   // console.log('incorrect question 5');
   alert('Wrong! Sports is a good excuse to hang with friends.');
 }
+}
+question5();
 
 // for loop on the 6th question math.random() taken from https:www.w3schools.com/JS/js_random.as
 
