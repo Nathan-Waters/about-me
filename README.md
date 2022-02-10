@@ -7,8 +7,8 @@ I have build an app that informs the user about yours truly.
 
 ### Author: Nathan Waters
 
-#### Links and Resources
-
+#### Links and Resources  
+  - https://www.w3schools.com/JS/js_random.asp
 
 #### Reflections and Comments
   - introduced conditional statements and if loops
