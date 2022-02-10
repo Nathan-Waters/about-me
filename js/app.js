@@ -44,6 +44,8 @@ if(answerThree === 'yes' || answerThree ==='y'){
   alert('Wrong! Human Nathan did however live in Alaska for a short time growing up.');
 }
 
+function question3(){
+
 let answerFour = prompt('Was Nathan a ranked figure skater? beep beep boop.').toLowerCase();
 
 if(answerFour === 'yes' || answerFour ==='y'){
@@ -54,6 +56,8 @@ if(answerFour === 'yes' || answerFour ==='y'){
   alert('That is correct, but he would have been beautiful!');
   totalScore++;
 }
+}
+question3();
 
 let answerFive = prompt('Does Nathan Like sports? beep beep boop.').toLowerCase();
 
