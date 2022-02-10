@@ -82,22 +82,26 @@ question5();
 
 
 let randomNum = Math.floor((Math.random() * 50));
-for(let i = 0; i <= 3; i++){
+function numGuessGame(a){
+  for(let i = 0; i <= 3; i++){
 
-  // let randomNum = Math.floor((Math.random() * 50));
-  let userGuess = prompt('pick a number between 0 and 50');
-  if (userGuess === randomNum){
-    alert('correct!');
-    totalScore++;
-    break;
-  } else if(userGuess > randomNum && i !== 3){
-    alert('incorrect, try something lower');
-  } else if(userGuess < randomNum && i !== 3){
-    alert('incorrect, try something higher');
-  } else if(i === 3){
-    alert('Sorry the correct answer was :' + randomNum);
+    // let randomNum = Math.floor((Math.random() * 50));
+    let userGuess = prompt('pick a number between 0 and 50');
+    if (userGuess === a){
+      alert('correct!');
+      totalScore++;
+      break;
+    } else if(userGuess > a && i !== 3){
+      alert('incorrect, try something lower');
+    } else if(userGuess < a && i !== 3){
+      alert('incorrect, try something higher');
+    } else if(i === 3){
+      alert('Sorry the correct answer was :' + a);
+    }
   }
 }
+numGuessGame(randomNum);
+
 
 //question 7, checking items in an array
 
