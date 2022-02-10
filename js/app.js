@@ -89,7 +89,7 @@ let count = 0;
 let guessesMade = 1;
 
 while(count < 6){
-  let g = prompt('What is a place that you like to frequent?');
+  let g = prompt('What is a place that you like to frequent?').toLowerCase;
 
   for (let i = 0; i < arr.length; i++){
     if(arr[i] === g){
