@@ -18,3 +18,23 @@ p {
   background-color: black;
   color: red;
 }
+
+li {
+  flex-flow:column;
+}
+
+#orderedList {
+  float: left;
+  width: 10
+  em;
+  border: solid;
+  padding: 20px;
+}
+
+
+#underedList {
+  float: right;
+  width: 10em;
+  border: solid;
+  padding: 25px;
+}
