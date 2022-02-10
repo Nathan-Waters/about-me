@@ -6,6 +6,7 @@
 I have build an app that informs the user about yours truly.
 
 ### Author: Nathan Waters
+- Collaborated with Stephen Horne
 
 #### Links and Resources  
   - https://www.w3schools.com/JS/js_random.asp
