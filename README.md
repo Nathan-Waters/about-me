@@ -13,4 +13,5 @@ I have build an app that informs the user about yours truly.
 #### Reflections and Comments
   - introduced conditional statements and if loops
   - got some good practice with importing files from other parts of my directory/folders
+  - intorduced for and while loops
   
