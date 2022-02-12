@@ -1,4 +1,8 @@
 body {
+  width: 960px;
+  
+  margin-left: auto;
+  margin-right: auto;
   background-color: lightgray;
   text-align: center;
   border: 10px;
@@ -19,21 +23,21 @@ p {
   color: red;
 }
 
-li {
-  flex-flow:column;
-}
 
 #orderedList {
-  float: left;
-  width: 10
-  em;
+  width: auto;
+  align-items: left;
   border: solid;
   padding: 20px;
 }
 
+main {
+  height:fit-content;
+}
 
 #underedList {
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
   width: 10em;
   border: solid;
   padding: 25px;
